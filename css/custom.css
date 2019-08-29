@@ -148,6 +148,7 @@
     background: #5c505062;
     border: 2px solid rgb(56, 55, 55);
     border-radius: 50px;
+    padding: 0px 10px 0px 10px;
     text-align: center;
     justify-content: center;
     -webkit-animation-name: animation-middle; /* Safari 4.0 - 8.0 */
@@ -166,6 +167,7 @@
     font-size: 30pt;
     font-weight: bold;
     color: #ecd9d9;
+    text-align: center !important;
     -webkit-animation-name: fadeInDown; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
     animation-name: fadeInDown;
@@ -173,7 +175,7 @@
 }
 
 .title-custom-content {
-    font-size: 18pt;
+    font-size: 15pt;
     font-weight: bold;
     color: #ecd9d9;
     -webkit-animation-name: fadeInUp; /* Safari 4.0 - 8.0 */
