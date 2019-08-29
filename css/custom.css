@@ -1,6 +1,6 @@
 .about-us-image{
     display:flex;
-	justify-content:space-between;
+    justify-content:space-between;
 }
 
 .about-us-image img{
@@ -31,18 +31,22 @@
     width: 100%;
     top: 0px;
     transition: background 2s;
-    
     height: auto;
-    -webkit-animation-name: rubberBand; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: fadeIn; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-    animation-name: rubberBand;
+    animation-name: fadeIn;
     animation-duration: 2s;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 992px) {
 
     .header-menu {
         height: auto;
+    }
+
+    @-webkit-keyframes heightmenu {
+        from {height: 126.4px;}
+        to {height: 70px;}
     }
 }
 
@@ -88,7 +92,7 @@
 }
 
 @-webkit-keyframes heightmenu {
-    from {height: 25vh;}
+    from {height: 126.4px;}
     to {height: 70px;}
 }
   
@@ -134,3 +138,46 @@
     width: 200px;
 }
 
+.middle-text {
+    position: absolute;
+    top: 57%;
+    left: 35%;
+    height: 55vh;
+    width: 80%;
+    margin: -15% 0 0 -25%;
+    background: #5c505062;
+    border: 2px solid rgb(56, 55, 55);
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    -webkit-animation-name: animation-middle; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: animation-middle;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes animation-middle {
+    from {height: 5vh;}
+    to {height: 55vh;}
+}
+  
+
+.title-custom {
+    font-size: 30pt;
+    font-weight: bold;
+    color: #ecd9d9;
+    -webkit-animation-name: fadeInDown; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+
+.title-custom-content {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #ecd9d9;
+    -webkit-animation-name: fadeInUp; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: fadeInUp;
+    animation-duration: 2s;
+}
