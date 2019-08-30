@@ -48,6 +48,11 @@
         from {height: 126.4px;}
         to {height: 70px;}
     }
+
+    .middle-text {
+        position: absolute;
+        top: 33% !important;
+    }
 }
 
 
