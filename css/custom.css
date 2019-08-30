@@ -53,6 +53,20 @@
         position: absolute;
         top: 33% !important;
     }
+
+    .title-custom {
+        font-size: 20pt !important;
+    }
+    
+    .title-custom-content {
+        font-size: 10pt !important;
+        
+    }
+
+    .middle-text  > p {
+        margin-bottom: -1rem;
+    }
+
 }
 
 
