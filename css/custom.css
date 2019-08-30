@@ -51,7 +51,7 @@
 
     .middle-text {
         position: absolute;
-        top: 33% !important;
+        top: 50vh !important;
     }
 
     .title-custom {
@@ -59,7 +59,29 @@
     }
     
     .title-custom-content {
-        font-size: 10pt !important;
+        font-size: 1.9vw !important;
+        
+    }
+
+    .middle-text  > p {
+        margin-bottom: -1rem;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .middle-text {
+        position: absolute;
+        top: 40vh !important;
+    }
+
+    .title-custom {
+        font-size: 15pt !important;
+    }
+    
+    .title-custom-content {
+        font-size: 2.1vw !important;
         
     }
 
@@ -194,7 +216,7 @@
 }
 
 .title-custom-content {
-    font-size: 15pt;
+    font-size: 1.4vw;
     font-weight: bold;
     color: #ecd9d9;
     -webkit-animation-name: fadeInUp; /* Safari 4.0 - 8.0 */
