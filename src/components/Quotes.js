@@ -68,7 +68,7 @@ $(() =>{
 
         var youtube = document.querySelectorAll( ".youtube" );
         
-        for (var i = 0; i < youtube.length; i++) {
+        for (let i = 0; i < youtube.length; i++) {
             
             var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
             

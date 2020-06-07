@@ -45,7 +45,7 @@ class Header extends React.Component{
                             {
                                 this.state.Menu.map(function (val, i){
                                     return (
-                                    <li className="nav-item active" key={val.key}>
+                                    <li className="nav-item active" key={`I${val.key}`}>
                                         <a className="nav-link" href="#">{val.name} <span className="sr-only">(current)</span></a>
                                     </li>
                                     )
