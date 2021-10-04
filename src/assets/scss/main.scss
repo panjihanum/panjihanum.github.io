@@ -1,0 +1,90 @@
+$primary-color: #0077ff;
+$height-box: 80vh;
+$width-box: 80vw;
+$height-box-mobile: 100vh;
+$width-box-mobile: 100vh;
+
+@font-face {
+  font-family: Cambria;
+  src: url("../fonts/Cambria.ttf");
+}
+
+@font-face {
+  font-family: Cambria;
+  font-weight: 500;
+  src: url("../fonts/cambriab.ttf");
+}
+
+@font-face {
+  font-family: Cambria;
+  font-weight: bold;
+  src: url("../fonts/cambriab.ttf");
+}
+
+.App {
+  background-color: #0077ff;
+  min-height: 100vh;
+}
+
+body {
+  font-family: Cambria;
+}
+
+.primary-color {
+  color: $primary-color;
+}
+
+.primary-bg-color {
+  background-color: $primary-color;
+}
+
+.box {
+  height: 80vh;
+  width: 80vw;
+  background-color: white;
+  -moz-transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+
+  @media only screen and (min-width: 992px) {
+    .section-box {
+      height: 100%;
+    }
+    .photo-box-wrapper {
+      position: absolute;
+      right: calc(20vw - (280px / 2));
+      top: calc(40vh - (280px / 2));
+      .photo-box {
+        width: 280px;
+        height: 280px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .photo-box-wrapper {
+      padding-block: 40px;
+      display: flex;
+      justify-content: center;
+      .photo-box {
+        width: 280px;
+        height: 280px;
+      }
+    }
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+.button {
+  padding: 15px 25px;
+  background-color: $primary-color;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color .5s ease;
+  &:hover {
+    background-color: #2e90ff;
+  }
+}
