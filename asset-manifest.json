@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c044dec.chunk.css",
-    "main.js": "/static/js/main.c71a8118.chunk.js",
-    "main.js.map": "/static/js/main.c71a8118.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c221c87c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c221c87c.js.map",
-    "static/js/2.e4537674.chunk.js": "/static/js/2.e4537674.chunk.js",
-    "static/js/2.e4537674.chunk.js.map": "/static/js/2.e4537674.chunk.js.map",
-    "static/js/3.88eae9f0.chunk.js": "/static/js/3.88eae9f0.chunk.js",
-    "static/js/3.88eae9f0.chunk.js.map": "/static/js/3.88eae9f0.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.6c044dec.chunk.css.map": "/static/css/main.6c044dec.chunk.css.map",
-    "static/js/2.e4537674.chunk.js.LICENSE.txt": "/static/js/2.e4537674.chunk.js.LICENSE.txt",
-    "static/media/CV_Panji.pdf": "/static/media/CV_Panji.ba91c621.pdf",
-    "static/media/main.scss": "/static/media/cambriab.3907f97e.ttf",
-    "static/media/foto_panji.jpg": "/static/media/foto_panji.70bbe6f7.jpg"
+    "main.css": "./static/css/main.2543d8df.chunk.css",
+    "main.js": "./static/js/main.c71a8118.chunk.js",
+    "main.js.map": "./static/js/main.c71a8118.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.4b8bb9a4.js",
+    "runtime-main.js.map": "./static/js/runtime-main.4b8bb9a4.js.map",
+    "static/js/2.e4537674.chunk.js": "./static/js/2.e4537674.chunk.js",
+    "static/js/2.e4537674.chunk.js.map": "./static/js/2.e4537674.chunk.js.map",
+    "static/js/3.88eae9f0.chunk.js": "./static/js/3.88eae9f0.chunk.js",
+    "static/js/3.88eae9f0.chunk.js.map": "./static/js/3.88eae9f0.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.2543d8df.chunk.css.map": "./static/css/main.2543d8df.chunk.css.map",
+    "static/js/2.e4537674.chunk.js.LICENSE.txt": "./static/js/2.e4537674.chunk.js.LICENSE.txt",
+    "static/media/CV_Panji.pdf": "./static/media/CV_Panji.ba91c621.pdf",
+    "static/media/main.scss": "./static/media/cambriab.3907f97e.ttf",
+    "static/media/foto_panji.jpg": "./static/media/foto_panji.70bbe6f7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c221c87c.js",
+    "static/js/runtime-main.4b8bb9a4.js",
     "static/js/2.e4537674.chunk.js",
-    "static/css/main.6c044dec.chunk.css",
+    "static/css/main.2543d8df.chunk.css",
     "static/js/main.c71a8118.chunk.js"
   ]
 }
